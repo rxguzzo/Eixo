@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style_form.css">
+    <title>Eixo Interáreas - Gordofobia</title>
+</head>
+
+<body>
+    <nav>
+        <label class="logo">Gordofobia</label>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="gordoObeso.html">GORDO X OBESO</a></li>
+            <li><a href="casos.html">CASOS</a></li>
+            <li><a href="evitar.html">CONSEQUÊNCIAS</a></li>
+            <li><a href="relato.html" class="active">ESCREVA AQUI SEU RELATO</a></li>
+        </ul>
+    </nav>
+
+    <main class="content container">
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <input type="hidden" name="accessKey" value="943ace22-7bfe-49ae-913a-699560ab2aa1">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/index.html">
+            <h1 type="text" class="title">Formulário</h1>
+
+            <div class="text">
+                <p class="p2">Olá querido visitante, nesta área do site gostarímos que, se você ja passou por alguma
+                    situação de
+                    gordofobia, ou conhece alguém que já passou, ou se você já presenciou alguém passando por isso,
+                    conte para nós aqui! <br><br>
+                    Se você tem alguma opinião sobre o nosso trabalho, deixe aqui também!</p>
+                <br>
+            </div>
+            <div class="row">
+                <div class="inputbox">
+                    <input type="text" class="form-control" name="$nome" id="nome" required>
+                    <label for="nome" class="form-control">Nome Completo</label>
+                </div>
+                <br><br>
+                <div class="inputbox">
+                    <input type="text" class="form-control" name="$email" id="email" required>
+                    <label for="email" class="form-control">Email</label>
+                </div>
+                <br><br>
+                <div class="inputbox">
+                    <input type="text" class="idade" name="$idade" id="idade" required>
+                    <label for="idade" class="form-control">Idade</label>
+                </div>
+                <br><br>
+                <div class="inputbox">
+                    <input type="text" id="cidade" name="$cidade" required>
+                    <label for="cidade">Cidade</label>
+                </div>
+                <br><br>
+                <div class="inputbox">
+                    <input type="text" id="estado" name="$estado" required>
+                    <label for="estado">Estado</label>
+                </div>
+                <br><br>
+                <div class="inputbox">
+
+                    <label for="estado">Conte Aqui!</label>
+                </div>
+                <textarea type="text" name="$relato" required id="relato" cols="80" rows="10" placeholder="Escreva aqui!"></textarea>
+
+            </div>
+            <!-- fim do formulário "PENEIRA" site-->
+            <br><br>
+            <div class="row">
+                <button type="submit" value="submit" class="btn btn-primary">Cadastre-se</button>
+            </div>
+
+    </main>
+    <form>
+
+        <footer>
+            <div class="foot">
+                2º ano B | Problemas da Sociedade Moderna <br>
+                Giulia Amapola Salla Canavesi | Lauanna Victória Barbosa dos Santos | Laura Vitória Sayuri Lôbo Kuramoto
+                |
+                Luísa Marchioretto
+            </div>
+        </footer>
+</body>
+<script src="./js/script.js" defer> </script>
+
+</html>
